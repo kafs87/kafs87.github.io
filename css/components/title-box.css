@@ -15,7 +15,7 @@
     --color-warning: #CEB02A;
 }
 
-#title-box {
+.title-box {
     display: inline-block;
     background-color: var(--color-licorice);
     box-shadow: 10px 10px 0 var(--color-black-first);
@@ -24,6 +24,6 @@
     margin: 175px 221px 438px 107px;
 }
 
-#title-box h1 {
+.title-box .title {
     margin-bottom: 28px;
 }

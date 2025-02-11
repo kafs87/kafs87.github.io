@@ -15,7 +15,7 @@
     --color-warning: #CEB02A;
 }
 
-h2 {
+.subtitle {
     font-family: "Press Start 2P", Arial, Helvetica, sans-serif;
     font-size: 30px;
     color: var(--color-melon);

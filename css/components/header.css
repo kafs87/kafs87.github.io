@@ -15,9 +15,19 @@
     --color-warning: #CEB02A;
 }
 
-.title {
-    font-family: "Press Start 2P", Arial, Helvetica, sans-serif;
-    font-size: 40px;
-    color: var(--color-white);
-    text-shadow: 4px 4px 0 var(--color-black-first);
+.header {
+    background-color: var(--color-licorice);
+    border-bottom: solid 10px var(--color-black-first);
+    padding: 10px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    opacity: 0.9;
+}
+
+.header-name {
+    color: var(--color-linen);
+    font-family: 'Russo One';
+    font-size: 22px;
+    font-weight: 400;
 }
