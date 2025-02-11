@@ -25,15 +25,11 @@ header {
     opacity: 0.9;
 }
 
-h1 {
+.header-name {
     color: var(--color-linen);
     font-family: 'Russo One';
     font-size: 22px;
     font-weight: 400;
-}
-
-nav {
-    text-align: right;
 }
 
 a {
@@ -62,7 +58,7 @@ a:hover {
     color: var(--color-white);
 }
 
-#btn-menu {
+.btn-header {
     display: inline-block;
     color: var(--color-black-third);
     background-color: var(--color-melon);
