@@ -15,7 +15,7 @@
     --color-warning: #CEB02A;
 }
 
-.title {
+h1 {
     font-family: "Press Start 2P", Arial, Helvetica, sans-serif;
     font-size: 40px;
     color: var(--color-white);
