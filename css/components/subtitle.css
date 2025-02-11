@@ -15,9 +15,9 @@
     --color-warning: #CEB02A;
 }
 
-.title {
+.subtitle {
     font-family: "Press Start 2P", Arial, Helvetica, sans-serif;
-    font-size: 40px;
-    color: var(--color-white);
+    font-size: 30px;
+    color: var(--color-melon);
     text-shadow: 4px 4px 0 var(--color-black-first);
 }
