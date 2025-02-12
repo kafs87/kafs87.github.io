@@ -21,3 +21,9 @@
     color: var(--color-white);
     text-shadow: 4px 4px 0 var(--color-black-first);
 }
+
+.title.-second {
+    color: var(--color-white);
+    text-shadow: none;
+    text-align: center;
+}
