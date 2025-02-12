@@ -1,0 +1,33 @@
+:root {
+    --color-black-first: #000;
+    --color-black-second: #30302E;
+    --color-black-third: #0A0A09;
+    --color-white: #FFF;
+    --color-melon: #E0AFA0;
+    --color-linen: #F7ECE1;
+    --color-silver: #BCB8B1;
+    --color-battleship-gray: #8A817C;
+    --color-taupe: #463F3A;
+    --color-cinereous: #886f68;
+    --color-licorice: #311c1f;
+    --color-error: #BA1F33;
+    --color-sucess: #62C370;
+    --color-warning: #CEB02A;
+}
+
+.progress-bar {
+    background-color: var(--color-white);
+    border: solid 5px var(--color-black-third);
+    height: 40px;
+    width: 320px;
+}
+
+.progress-bar::-webkit-progress-bar,
+.progress-bar::-webkit-progress-value {
+    width: 70%;
+    background-color: var(--color-licorice);
+}
+
+.progress-bar::-moz-progress-bar {
+    background-color: var(--color-black-third);
+}
