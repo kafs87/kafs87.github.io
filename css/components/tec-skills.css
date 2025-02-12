@@ -1,0 +1,33 @@
+:root {
+    --color-black-first: #000;
+    --color-black-second: #30302E;
+    --color-black-third: #0A0A09;
+    --color-white: #FFF;
+    --color-melon: #E0AFA0;
+    --color-linen: #F7ECE1;
+    --color-silver: #BCB8B1;
+    --color-battleship-gray: #8A817C;
+    --color-taupe: #463F3A;
+    --color-cinereous: #886f68;
+    --color-licorice: #311c1f;
+    --color-error: #BA1F33;
+    --color-sucess: #62C370;
+    --color-warning: #CEB02A;
+}
+
+.tec-skills {
+    display: flex;
+    font-family: "Press Start 2P", Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    color: var(--color-white);
+}
+
+.tec-skills .icon {
+    margin-right: 25px;
+}
+
+.tec-skills .right {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
