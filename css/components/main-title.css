@@ -15,14 +15,14 @@
     --color-warning: #CEB02A;
 }
 
-.title {
+.main-title {
     font-family: "Press Start 2P", Arial, Helvetica, sans-serif;
     font-size: 40px;
     color: var(--color-white);
     text-shadow: 4px 4px 0 var(--color-black-first);
 }
 
-.title.-second {
+.main-title.-second {
     color: var(--color-white);
     text-shadow: none;
     text-align: center;
