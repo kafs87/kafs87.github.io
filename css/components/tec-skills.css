@@ -17,6 +17,7 @@
 
 .tec-skills {
     display: flex;
+    align-items: center;
     font-family: "Press Start 2P", Arial, Helvetica, sans-serif;
     font-size: 20px;
     color: var(--color-white);
@@ -24,10 +25,15 @@
 
 .tec-skills .icon {
     margin-right: 25px;
+    width: 90px;
 }
 
 .tec-skills .right {
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
+}
+
+.tec-skills .title {
+    margin-bottom: 10px;
 }
